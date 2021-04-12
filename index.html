@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Watch</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://cdn0.iconfinder.com/data/icons/internet-2020/1080/Applemusicandroid-512.png"/>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    
+</head>
+
+<body>
+    <div class="strap">
+        <div class="container">
+            <div class="head">
+                <span id="head-text">Music</span>
+            </div>
+            <div class="content">
+                <div class="music-bar">
+
+                    <div class="album">
+                        <div class="album-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/b/b4/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png" id="album-cover" alt="" srcset="">
+                        </div>
+                        <div class="album-info">
+                            <span class="album-name" id="cover-title">Shape of You</span>
+                            <span class="artist-name" id="cover-artist">Ed Sheeran</span>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="music-list">
+                    <!-- <div class="songs"></div> -->
+                    <!-- songs names are loded using js -->
+                </div>
+                <div class="music-control-bar">
+                    <div id ="progress-bar" class="progress-bar">
+                        
+                        <div class="bar">
+                            
+
+                        </div>
+                        <div class="progress" id="progress">
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="controls">
+                        <audio class="audio-file" id="audio-file" src=" " type = "audio/mp3"></audio>
+                        <!-- <audio class="audio" src=`$songList[i].songSrc`></audio> -->
+                        <i class="fas fa-backward " id="prev"></i>
+                        <i class="fas fa-play " id="play"></i>
+                        <i class="fas fa-forward" id="next"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="foot">
+                <div class="menu-left">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <div class="menu-centre">
+                    <i class="fas fa-music"></i>
+                </div>
+                <div class="menu-right">
+                    <i class="far fa-clock"></i>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
